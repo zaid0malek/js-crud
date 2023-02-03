@@ -1,0 +1,118 @@
+.container {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #3f51b5;
+    border-color: #3f51b5;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table td,
+.table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #3f51b5;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table td img {
+    max-width: 100px;
+    height: auto;
+}
+
+.modal-header {
+    background-color: #3f51b5;
+    color: white;
+    border-bottom: none;
+}
+
+.modal-header button {
+    color: white;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-header h2 {
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    border-radius: 5px;
+}
+
+.form-group input[type="text"]:focus,
+.form-group textarea:focus {
+    box-shadow: 0 0 10px #ddd;
+}
+
+.form-group input[type="text"].error,
+.form-group textarea.error {
+    border-color: red;
+}
+
+
+.form-group .input-group .form-control {
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
