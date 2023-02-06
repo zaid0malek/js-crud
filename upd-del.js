@@ -88,6 +88,9 @@ function deleteProduct() {
             products.splice(i, 1);
             localStorage.setItem("products", JSON.stringify(products))
         }
+        if (products.length == 1) {
+            localStorage.removeItem("products")
+        }
     }
     refreshProduct()
 }

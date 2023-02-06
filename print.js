@@ -172,5 +172,15 @@ document.getElementById("sortpprice").onclick = function () {
         icon.classList.add("fa-sort")
         refreshProduct()
     }
+}
 
+
+document.getElementById("search").onkeyup = function () {
+    var loc_products = localStorage.getItem("products")
+
+    //console.log(productListBody)
+    products = JSON.parse(loc_products);
+    str = document.getElementById("search").value
+    products = products.filter(product => product.name.toLowerCase().includes(str.toLowerCase()));
+    printsorted(products)
 }

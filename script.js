@@ -64,7 +64,8 @@ function newProduct() {
         productId = 1
         products = []
         loc_products = localStorage.getItem("products")
-        if (loc_products != "") {
+        console.log(loc_products)
+        if (loc_products != null) {
             products = JSON.parse(loc_products);
 
             productId += products[products.length - 1].id;
